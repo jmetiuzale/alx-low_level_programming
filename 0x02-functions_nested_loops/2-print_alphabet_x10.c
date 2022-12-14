@@ -1,29 +1,18 @@
 #include "main.h"
 
 /**
- * times_table - -print the 9 times table
+ * print_alpha_x10 - print alpha 10 times
  */
-void times_table(void)
+
+void print_alphabet_x10(void)
 {
-	int num, mult, prod;
+	int ten;
+	char la;
 
-	for (num = 0; num <= 9; num++)
+	for (ten = 0; ten <= 9; ten++)
 	{
-		_putchar('0');
-
-		for (mult = 1; mult <= 9; mult++)
-		{
-			_putchar(',');
-			_putchar(' ');
-
-			prod = num * mult;
-
-			if 9prod <= 9)
-				_putchar(' ');
-			else
-				_putchar((prod / 10) + '0');
-
-			_putchar((prod % 10) + '0');
-		}
+		for (la = 'a'; la <= 'z'; la++)
+			_putchar(la);
 		_putchar('\n');
 	}
+}

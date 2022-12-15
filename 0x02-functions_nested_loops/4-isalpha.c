@@ -1,7 +1,7 @@
 #include 'main.h"
 
  /**
-  *  _isalpha -  checks for alpha
+  *  _isalpha - checks for alpha
   *  Return: 1 if char is a lettter and 0 otherwise
   */
 int _isalpha(int c)

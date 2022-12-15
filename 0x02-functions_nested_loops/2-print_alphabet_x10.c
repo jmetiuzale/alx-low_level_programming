@@ -2,6 +2,8 @@
 
 /**
  * print_alpha_x10 - print alpha 10 times
+ * i dont like betty style
+ * print: the alpha 10 times
  */
 
 void print_alphabet_x10(void)
